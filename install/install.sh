@@ -24,8 +24,8 @@ echo = 'Completed'
 echo = 'Move Kitty Config'
 # Kitty Setupfiles
 rm -rf $HOME/.config/kitty/
-ln -s $DOTFILES/kitty/ $HOME/.config/kitty/
+ln -s $DOTFILES/kitty/ $HOME/.config/kitty
 # nvim Setupfiles
 rm -rf $HOME/.config/nvim/
-ln -s $DOTFILES/nvim/ $HOME/.config/nvim/
+ln -s $DOTFILES/nvim/ $HOME/.config/nvim
 echo = 'Completed'
