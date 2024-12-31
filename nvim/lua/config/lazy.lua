@@ -21,6 +21,7 @@ require("lazy").setup({
       colorscheme = "catppuccin-frappe",
     } },
     { "xiyaowong/transparent.nvim" },
+    { "junegunn/fzf.vim" },
     -- import/override with your plugins
     { import = "lazyvim.plugins.extras.linting.eslint" },
     { import = "lazyvim.plugins.extras.formatting.prettier" },
