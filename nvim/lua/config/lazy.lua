@@ -22,6 +22,8 @@ require("lazy").setup({
     } },
     { "xiyaowong/transparent.nvim" },
     { "junegunn/fzf.vim" },
+    {'EmranMR/tree-sitter-blade'},
+    {'jwalton512/vim-blade'},
     -- import/override with your plugins
     { import = "lazyvim.plugins.extras.linting.eslint" },
     { import = "lazyvim.plugins.extras.formatting.prettier" },
