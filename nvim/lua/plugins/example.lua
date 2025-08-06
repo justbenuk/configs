@@ -17,7 +17,7 @@ return {
   },
 
   -- disable trouble
-  { "folke/trouble.nvim",                             enabled = false },
+  { "folke/trouble.nvim", enabled = false },
 
   -- override nvim-cmp and add cmp-emoji
   {
@@ -106,7 +106,6 @@ return {
   { import = "lazyvim.plugins.extras.lang.prisma" },
   { import = "lazyvim.plugins.extras.linting.eslint" },
   { import = "lazyvim.plugins.extras.lang.tailwind" },
-
 
   -- add more treesitter parsers
   {

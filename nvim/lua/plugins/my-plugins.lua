@@ -1,13 +1,12 @@
 return {
-  -- My color scheme
-  { "Mofiqul/dracula.nvim" },
-
-  -- Configure LazyVim to load dracula
   {
     "folke/tokyonight.nvim",
     opts = {
-      style = "night",
-      colorscheme = "tokyonight",
+      transparent = true,
+      styles = {
+        sidebars = "transparent",
+        floats = "transparent",
+      },
     },
   },
   -- add marks to the die of the buffer
@@ -25,7 +24,6 @@ return {
       ["<leader>ff"] = { "<cmd>Telescope find_files<cr>", "Find File" },
       ["<leader>fr"] = { "<cmd>Telescope oldfiles<cr>", "Open Recent File" },
       ["<leader>fn"] = { "<cmd>Telescope enew<cr>", "New File" },
-    }
+    },
   },
-
 }
